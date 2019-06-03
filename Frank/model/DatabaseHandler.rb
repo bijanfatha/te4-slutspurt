@@ -3,7 +3,7 @@ require 'sequel'
 class DBhandler
 
   def self.db
-    @db ||= Sequel.connect(adapter: 'mysql', host: 'localhost', database: 'Franks', user: 'root', password: '123456')
+    @db ||= Sequel.connect(adapter: 'postgres', host: 'localhost', database: 'Franks', user: 'root', password: '123456')
   end
 
   def self.table_name(table_name)
