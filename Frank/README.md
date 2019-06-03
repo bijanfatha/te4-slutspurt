@@ -9,4 +9,3 @@
 * mysql2, https://github.com/brianmario/mysql2
 * i18n, https://github.com/ruby-i18n/i18n
 
-

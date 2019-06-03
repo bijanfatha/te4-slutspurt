@@ -15,6 +15,13 @@
   </form>
   <p></p>
 
+<h1><%= I18n.t(:post)%></h1>
+  <% @posts.each do |post| %>
+    <a href="/<%= post[:id] %>"> <h1>Title: <%= post[:title] %></h1></a>
+    <p>Content: <%= post[:content] %></p>
+     <%= post %>
+  <% end %>
+  
   <h2>Mat</h2>
  <form action="/order" method="post">
   <input type="radio" name="food" value="Korv"> Korv<br>
