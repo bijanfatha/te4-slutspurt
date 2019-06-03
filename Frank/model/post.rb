@@ -1,6 +1,6 @@
 
 class Post < DBhandler
-  table_name("posts")
+  table_name("Franks")
   column(id: "serial")
   column(title: "text")
   column(content: "text")
